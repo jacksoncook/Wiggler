@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DE219032636688E00A8BC01 /* WigglerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE219022636688E00A8BC01 /* WigglerApp.swift */; };
+		8DE219052636688E00A8BC01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE219042636688E00A8BC01 /* ContentView.swift */; };
+		8DE219072636688F00A8BC01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE219062636688F00A8BC01 /* Assets.xcassets */; };
+		8DE2190A2636688F00A8BC01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE219092636688F00A8BC01 /* Preview Assets.xcassets */; };
+		8DE219162636688F00A8BC01 /* WigglerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE219152636688F00A8BC01 /* WigglerTests.swift */; };
+		8DE219212636688F00A8BC01 /* WigglerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE219202636688F00A8BC01 /* WigglerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DE219122636688F00A8BC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE218F72636688E00A8BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE218FE2636688E00A8BC01;
+			remoteInfo = Wiggler;
+		};
+		8DE2191D2636688F00A8BC01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE218F72636688E00A8BC01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE218FE2636688E00A8BC01;
+			remoteInfo = Wiggler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DE218FF2636688E00A8BC01 /* Wiggler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wiggler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE219022636688E00A8BC01 /* WigglerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglerApp.swift; sourceTree = "<group>"; };
+		8DE219042636688E00A8BC01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DE219062636688F00A8BC01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DE219092636688F00A8BC01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DE2190B2636688F00A8BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE2190C2636688F00A8BC01 /* Wiggler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wiggler.entitlements; sourceTree = "<group>"; };
+		8DE219112636688F00A8BC01 /* WigglerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigglerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE219152636688F00A8BC01 /* WigglerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglerTests.swift; sourceTree = "<group>"; };
+		8DE219172636688F00A8BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE2191C2636688F00A8BC01 /* WigglerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WigglerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE219202636688F00A8BC01 /* WigglerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WigglerUITests.swift; sourceTree = "<group>"; };
+		8DE219222636688F00A8BC01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DE218FC2636688E00A8BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2190E2636688F00A8BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE219192636688F00A8BC01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DE218F62636688E00A8BC01 = {
+			isa = PBXGroup;
+			children = (
+				8DE219012636688E00A8BC01 /* Wiggler */,
+				8DE219142636688F00A8BC01 /* WigglerTests */,
+				8DE2191F2636688F00A8BC01 /* WigglerUITests */,
+				8DE219002636688E00A8BC01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE219002636688E00A8BC01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DE218FF2636688E00A8BC01 /* Wiggler.app */,
+				8DE219112636688F00A8BC01 /* WigglerTests.xctest */,
+				8DE2191C2636688F00A8BC01 /* WigglerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DE219012636688E00A8BC01 /* Wiggler */ = {
+			isa = PBXGroup;
+			children = (
+				8DE219022636688E00A8BC01 /* WigglerApp.swift */,
+				8DE219042636688E00A8BC01 /* ContentView.swift */,
+				8DE219062636688F00A8BC01 /* Assets.xcassets */,
+				8DE2190B2636688F00A8BC01 /* Info.plist */,
+				8DE2190C2636688F00A8BC01 /* Wiggler.entitlements */,
+				8DE219082636688F00A8BC01 /* Preview Content */,
+			);
+			path = Wiggler;
+			sourceTree = "<group>";
+		};
+		8DE219082636688F00A8BC01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DE219092636688F00A8BC01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DE219142636688F00A8BC01 /* WigglerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE219152636688F00A8BC01 /* WigglerTests.swift */,
+				8DE219172636688F00A8BC01 /* Info.plist */,
+			);
+			path = WigglerTests;
+			sourceTree = "<group>";
+		};
+		8DE2191F2636688F00A8BC01 /* WigglerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE219202636688F00A8BC01 /* WigglerUITests.swift */,
+				8DE219222636688F00A8BC01 /* Info.plist */,
+			);
+			path = WigglerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DE218FE2636688E00A8BC01 /* Wiggler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE219252636688F00A8BC01 /* Build configuration list for PBXNativeTarget "Wiggler" */;
+			buildPhases = (
+				8DE218FB2636688E00A8BC01 /* Sources */,
+				8DE218FC2636688E00A8BC01 /* Frameworks */,
+				8DE218FD2636688E00A8BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wiggler;
+			productName = Wiggler;
+			productReference = 8DE218FF2636688E00A8BC01 /* Wiggler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DE219102636688F00A8BC01 /* WigglerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE219282636688F00A8BC01 /* Build configuration list for PBXNativeTarget "WigglerTests" */;
+			buildPhases = (
+				8DE2190D2636688F00A8BC01 /* Sources */,
+				8DE2190E2636688F00A8BC01 /* Frameworks */,
+				8DE2190F2636688F00A8BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE219132636688F00A8BC01 /* PBXTargetDependency */,
+			);
+			name = WigglerTests;
+			productName = WigglerTests;
+			productReference = 8DE219112636688F00A8BC01 /* WigglerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DE2191B2636688F00A8BC01 /* WigglerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE2192B2636688F00A8BC01 /* Build configuration list for PBXNativeTarget "WigglerUITests" */;
+			buildPhases = (
+				8DE219182636688F00A8BC01 /* Sources */,
+				8DE219192636688F00A8BC01 /* Frameworks */,
+				8DE2191A2636688F00A8BC01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE2191E2636688F00A8BC01 /* PBXTargetDependency */,
+			);
+			name = WigglerUITests;
+			productName = WigglerUITests;
+			productReference = 8DE2191C2636688F00A8BC01 /* WigglerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DE218F72636688E00A8BC01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8DE218FE2636688E00A8BC01 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					8DE219102636688F00A8BC01 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8DE218FE2636688E00A8BC01;
+					};
+					8DE2191B2636688F00A8BC01 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 8DE218FE2636688E00A8BC01;
+					};
+				};
+			};
+			buildConfigurationList = 8DE218FA2636688E00A8BC01 /* Build configuration list for PBXProject "Wiggler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DE218F62636688E00A8BC01;
+			productRefGroup = 8DE219002636688E00A8BC01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE218FE2636688E00A8BC01 /* Wiggler */,
+				8DE219102636688F00A8BC01 /* WigglerTests */,
+				8DE2191B2636688F00A8BC01 /* WigglerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DE218FD2636688E00A8BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE2190A2636688F00A8BC01 /* Preview Assets.xcassets in Resources */,
+				8DE219072636688F00A8BC01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2190F2636688F00A8BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2191A2636688F00A8BC01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DE218FB2636688E00A8BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE219052636688E00A8BC01 /* ContentView.swift in Sources */,
+				8DE219032636688E00A8BC01 /* WigglerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE2190D2636688F00A8BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE219162636688F00A8BC01 /* WigglerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE219182636688F00A8BC01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE219212636688F00A8BC01 /* WigglerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DE219132636688F00A8BC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE218FE2636688E00A8BC01 /* Wiggler */;
+			targetProxy = 8DE219122636688F00A8BC01 /* PBXContainerItemProxy */;
+		};
+		8DE2191E2636688F00A8BC01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE218FE2636688E00A8BC01 /* Wiggler */;
+			targetProxy = 8DE2191D2636688F00A8BC01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DE219232636688F00A8BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DE219242636688F00A8BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8DE219262636688F00A8BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wiggler/Wiggler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Wiggler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wiggler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksoncook.Wiggler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8DE219272636688F00A8BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wiggler/Wiggler.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Wiggler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Wiggler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksoncook.Wiggler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8DE219292636688F00A8BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WigglerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksoncook.WigglerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiggler.app/Contents/MacOS/Wiggler";
+			};
+			name = Debug;
+		};
+		8DE2192A2636688F00A8BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WigglerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksoncook.WigglerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wiggler.app/Contents/MacOS/Wiggler";
+			};
+			name = Release;
+		};
+		8DE2192C2636688F00A8BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WigglerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksoncook.WigglerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wiggler;
+			};
+			name = Debug;
+		};
+		8DE2192D2636688F00A8BC01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WigglerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacksoncook.WigglerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Wiggler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DE218FA2636688E00A8BC01 /* Build configuration list for PBXProject "Wiggler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE219232636688F00A8BC01 /* Debug */,
+				8DE219242636688F00A8BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE219252636688F00A8BC01 /* Build configuration list for PBXNativeTarget "Wiggler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE219262636688F00A8BC01 /* Debug */,
+				8DE219272636688F00A8BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE219282636688F00A8BC01 /* Build configuration list for PBXNativeTarget "WigglerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE219292636688F00A8BC01 /* Debug */,
+				8DE2192A2636688F00A8BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE2192B2636688F00A8BC01 /* Build configuration list for PBXNativeTarget "WigglerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE2192C2636688F00A8BC01 /* Debug */,
+				8DE2192D2636688F00A8BC01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DE218F72636688E00A8BC01 /* Project object */;
+}
