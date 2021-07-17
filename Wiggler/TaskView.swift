@@ -1,19 +1,32 @@
 //
-//  TaskView.swift
+//  TaskView2.swift
 //  Wiggler
 //
-//  Created by Jackson Cook on 4/25/21.
+//  Created by Jackson Cook on 7/16/21.
 //
-
 
 import SwiftUI
 
 struct TaskView: View {
-    
-    @State var taskPriority = "High"
-    @State var taskDescription = "Do the thing"
-    
+    let task: TaskDataModel
     var body: some View {
-        Text(taskPriority).foregroundColor(.red) + Text(taskDescription)
+        HStack(alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
+            TaskSizeView(taskSize: task.size);
+            Text(task.description)
+        })
+        .padding(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+        .foregroundColor(Color.black)
     }
+}
+
+struct TaskView_Previews: PreviewProvider {
+    static var task = TaskDataModel(priority: TaskPriority.low, size: TaskSize.large, description: "take out the trash")
+    static var previews: some View {
+
+        TaskView(task: task)
+            .previewLayout(.fixed(width: 400, height: 60))
+            .background(Color.white)
+
+    }
+
 }
